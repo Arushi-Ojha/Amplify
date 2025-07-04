@@ -906,7 +906,9 @@ return path.endsWith(`/${name}`) || path.endsWith(`/${name}.html`);
 if (pageMatch("login")) {
 setupLoginForm();
 setupGoogleLogin();
-handleGoogleCallback();
+if (window.location.pathname === "/login" && window.location.search.includes("email=")) {
+    handleGoogleCallback();
+}
 } else if (pageMatch("signup")) {
 setupSignupForm();
 } else if (pageMatch("landingpage")) {
