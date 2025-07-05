@@ -1,5 +1,5 @@
 // ==================== BASE URL ===========================
-const BASE_URL = "https://yqsbfpkwzclptjpybqzhict7hq0pkwxi.lambda-url.ap-south-1.on.aws";
+const BASE_URL = "https://pqxmghkk3m.execute-api.ap-south-1.amazonaws.com/prod";
 
 // ==================== AUTH MODULE ===========================
 
